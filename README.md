@@ -4,12 +4,12 @@ A small utility allowing to change the default handler for macOS's UTI.
 
 It allows to force opening `.webloc` files with the browser of your choice on macOS Ventura 13.1 by changing the `com.apple.web-internet-location` UTI handler.
 
-It requires ro modify the code to suit your needs. Read the comments :-) 
+It requires to modify the code to suit your needs. Read the comments in the code :-) 
 
 ## Usage 
 
 - change code to use your browser bundle id
-- `swift run`  
+- Type `swift run`  
 
 ## Prerequisites
 
