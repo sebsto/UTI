@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug uti",
+            "program": "${workspaceFolder:uti}/.build/debug/uti",
+            "args": [],
+            "cwd": "${workspaceFolder:uti}",
+            "preLaunchTask": "swift: Build Debug uti"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release uti",
+            "program": "${workspaceFolder:uti}/.build/release/uti",
+            "args": [],
+            "cwd": "${workspaceFolder:uti}",
+            "preLaunchTask": "swift: Build Release uti"
+        }
+    ]
+}
