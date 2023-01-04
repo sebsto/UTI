@@ -8,7 +8,7 @@ https://github.com/Lord-Kamina/SwiftDefaultApps
 https://www.droidwin.com/cannot-change-default-browser-for-webloc-files-in-ventura-fix/
 */
 @main
-public struct Uti {
+public struct Main {
 
   public static func main() {
 
